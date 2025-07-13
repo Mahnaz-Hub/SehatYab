@@ -1,0 +1,160 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.nc{
+    color: #487674;
+    
+    font-size: larger;
+}
+
+.span{
+    color: #000;
+}
+.webName{
+    font-size: 30px;
+    text-shadow: 0 0 2px #0cabe0;
+    font-weight: bold;
+    animation: fadeinout 1s ease-in-out infinite;
+}
+.webName:hover{
+   transform: scale(1.1);
+}
+@keyframes fadeinout{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.hero{
+    text-align: center;
+    margin-top: 75px;
+    background-color: #6EA2B3;
+}
+.btn-outline-dark{
+    background-color: #6EA2B3;
+}
+.carousel-img{
+    height: 400px;
+    object-fit: cover;
+}
+.carousel-inner{
+    margin-top: 75px;
+}
+
+
+.mybtn:hover{
+    background-color: #5da2b8;
+    color: #fff;
+}
+.myinput:hover,
+.myinput:focus{
+    box-shadow: 0 0 0 0.2rem #5da2b8;
+}
+.mydiv{
+  
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    padding: 40px;
+    font-family: cursive;
+}
+
+.fa-solid{
+    color: #000;
+}
+.services{
+    text-align: center;
+    padding: 30px;
+    background-color: #e5e0d8c8;
+}
+.service-btn{
+    background-color: #5da2b8;
+    
+}
+h1{
+    color: #5da2b8;
+    text-shadow: 
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    text-align: center;
+}
+.mission{
+    background-color: lightblue;
+    padding: 30px;
+}
+.p-mission{
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+    padding: 40px;
+    font-family: cursive;
+   padding-top: 10px;
+}
+.contact{
+    padding: 30px;
+    background-color: #e5e0d8c8;
+}
+
+.footer{
+    padding: 30px 50px 5px 50px;
+    background-color: #26425a;
+    line-height: 0;
+    color: #fff;
+     font-family: cursive;
+}
+.form-control:hover,
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem #5da2b8;
+}
+.collapse1{
+    list-style-type: decimal;
+    text-align: left;
+}
+.consultation{
+        padding: 40px;
+
+}
+ .consultation-form {
+    text-align: center;
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .consultation-form input,
+    .consultation-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      transition: border 0.3s;
+    }
+
+    .consultation-form input:focus,
+    .consultation-form textarea:focus {
+      border-color: #6EA2B3;
+      outline: none;
+    }
+
+    .consultation-form button {
+      background-color: #6EA2B3;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .consultation-form button:hover {
+      background-color:  rgb(0, 0, 0);
+    }
